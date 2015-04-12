@@ -1,3 +1,9 @@
+body {
+  width: 100%;
+  margin: 20px;
+  background: url('../img/feltBackground.jpg') no-repeat top left;
+}
+
 .card {
   float: left;
   border: solid 1px black;
@@ -7,10 +13,25 @@
   margin-right: 20px;
 }
 
+.card img {
+  width: 100px;
+  height: 140px;
+}
+
 .covered {
   background-color: black;
+  content: url('');
+  background: url('../img/card-back.png') no-repeat top left;
+  background-size: 100px;
 }
 
 .hand {
+  width: 60%;
+  border: solid 4px #151515;
+  padding: 10px 15px 50px 30px;
+  margin: 10px 0;
+  background: rgba(22,22,22,.3);
   overflow: auto;
+  font-family: 'Times New Roman', serif;
+  color: #aaa;
 }
